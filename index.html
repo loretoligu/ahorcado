@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="cabecera">
+            <P>JUEGO</P>
+            <P>DEL</P>
+            <P>AHORCADO</P>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="dibujo">
+                <img class="estructura" src="img/estructura.png" alt="dibujo">
+                <img id="monigote" class="pieza1" src="img/pieza1.png" alt="dibujo">
+                <img id="monigote" class="pieza2" src="img/pieza2.png" alt="dibujo">
+                <img id="monigote" class="pieza3" src="img/pieza3.png" alt="dibujo">
+                <img id="monigote" class="pieza4" src="img/pieza4.png" alt="dibujo">
+                <img id="monigote" class="pieza5" src="img/pieza5.png" alt="dibujo">
+                <img id="monigote" class="pieza6" src="img/pieza6.png" alt="dibujo">
+                <img id="monigote" class="pieza7" src="img/pieza7.png" alt="dibujo">
+            </div>
+            <div class="palabra">
+                <p id="palabraAdivinar"></p>
+                <p id="error"></p>
+                <div>
+                    <input type="text" maxlength="1" id="inputUsuario" placeholder="Introduce una letra">
+                    <button class="boton" id="comprobar">COMPROBAR</button>
+                </div>                
+            </div>
+            <div class="resultado">
+                <p id="registro"></p>   
+            </div>
+        </div>
+        
+        
+    </section>
+</body>
+</html>

@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    background-color: #d8d9c0;
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #91334f;
+    margin: 1rem 4rem;
+    gap: 5rem;
+}
+
+.cabecera p{
+    font-size: xx-large;  
+    margin: 0.5rem; 
+    color: white;  
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 18rem;
+    margin: 3rem 4rem;
+}
+
+.estructura{
+    width: 355px;
+}
+
+.pieza1{
+    display: none;
+    position: absolute;
+    top: 11.53rem;
+    left: 24.5rem;
+    z-index: 2;
+}
+
+.pieza2{
+    display: none;
+    position: absolute;
+    top: 16.3rem;
+    left: 21.4rem;
+}
+
+.pieza3{
+    display: none;
+    position: absolute;
+    top: 23rem;
+    left: 24.5rem;
+    z-index: 2;
+}
+
+.pieza4{
+    display: none;
+    position: absolute;
+    top: 24rem;
+    left: 19.8rem;
+    z-index: 4;
+}
+
+.pieza5{
+    display: none;
+    position: absolute;
+    top: 24rem;
+    left: 25rem;
+    z-index: 4;
+}
+
+.pieza6{
+    display: none;
+    position: absolute;
+    top: 28.7rem;
+    left: 20.19rem;
+    z-index: 3;
+}
+
+.pieza7{
+    display: none;
+    position: absolute;
+    top: 28.7rem;
+    left: 24.65rem;
+    z-index: 3;
+}
+
+.palabra{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 11rem;
+    color: #91334f;
+}
+
+#palabraAdivinar{
+    margin: 0px;
+    font-size: xx-large;
+    /* Separa una letra de otra */
+    letter-spacing: 20px;
+}
+
+#inputUsuario, .boton{
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.boton{
+    background-color: #91334f;
+    color: white;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 11rem;
+    margin-left: -5rem;
+}
+.resultado p{
+    color: #91334f;
+    font-size: xx-large;
+    width: 355px;
+    height: 25px;
+}
+
+#error{
+    margin: 0px;
+    font-size: xx-large;
+    color: #91334f;
+    height: 25px;
+}
